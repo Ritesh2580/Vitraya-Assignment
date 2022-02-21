@@ -6,6 +6,8 @@ For Testing purpose
 
 
 1. For add URL will be "http://localhost:8080/student/add"
+
+
 	Given Input:
 	{
 	"name":"Shyam Rathore",
@@ -33,6 +35,8 @@ For Testing purpose
 
 	
 2. For updating URL will be "http://localhost:8080/student/update"
+
+
 	Given Input:
 	
 	{
@@ -62,6 +66,8 @@ For Testing purpose
 
 
 3. For deleting the record URL will be "http://localhost:8080/student/delete?rollNumber=2"
+
+
 	Given Input:
 	you need add query string parameter named as "rollNumber" and give its value
 	http://localhost:8080/student/delete?rollNumber=2
@@ -79,6 +85,8 @@ For Testing purpose
 	
 	
 4. For getting list of all data URL will be  "http://localhost:8080/student/getAll"
+
+
 	Given Input:
 	Just hit the above URL and you will get list of the data
 	
@@ -137,6 +145,7 @@ For Testing purpose
 	}
 	
 5. For searching in the records URL will be "http://localhost:8080/student/search?query=police"
+
 
 	Given Input: You need add query string parameter named as "query" and give its value
 	http://localhost:8080/student/search?query=police
